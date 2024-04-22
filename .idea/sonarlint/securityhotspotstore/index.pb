@@ -11,3 +11,7 @@ log4J2.xml,c\2\c2382f0f0af231c2ad7a4e583aee4fdb3ee78fca
 :
 
 log4j2.xml,e\b\ebe6a3928074fe7cd4e9c659afbc0076ea5c3914
+d
+4src/main/java/org/example/practise1/StreamsTest.java,6\d\6d6e179c037332cfa4296c207c054264d259e17e
+d
+4src/main/java/org/example/practise1/StreamsEval.java,5\3\5342e538c8a2bde443635b70c5cb9d73da027d95
