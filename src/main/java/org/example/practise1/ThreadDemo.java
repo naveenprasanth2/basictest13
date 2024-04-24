@@ -6,10 +6,10 @@ import lombok.Getter;
 class Counter {
     private int count;
 
-    void incrementCount() {
-        synchronized (Counter.class) {
-            count++;
-        }
+    public synchronized void incrementCount() {
+//        synchronized (this) {
+        count++;
+//        }
     }
 }
 
