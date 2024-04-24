@@ -6,4 +6,8 @@ public class Child extends Parent {
         super(number);
         this.number = number;
     }
+
+    public void test(){
+        System.out.println("child");
+    }
 }

@@ -22,6 +22,7 @@ public class OptionalTest {
 
         Parent parent = new Child(5);
         log.info(parent.number);
+        parent.test();
         IntStream.rangeClosed(1, 10).forEach(optionalTest::print);
         ToIntFunction<String> function = String::length;
         BiFunction<String, String, Integer> function1 = (String name, String city) -> (name + city).length();
