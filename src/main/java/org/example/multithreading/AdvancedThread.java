@@ -2,7 +2,7 @@ package org.example.multithreading;
 
 public class AdvancedThread {
     public static void main(String[] args) throws InterruptedException {
-        Runnable r1 = () -> {
+        Thread t1 = new Thread(() -> {
             for (int i = 1; i <= 5; i++) {
                 try {
                     Thread.sleep(500);
@@ -11,9 +11,9 @@ public class AdvancedThread {
                 }
                 System.out.println("Hi");
             }
-        };
+        }, "Hi Thread");
 
-        Runnable r2 = () -> {
+        Thread t2 = new Thread(() -> {
             for (int i = 1; i <= 5; i++) {
                 try {
                     Thread.sleep(500);
@@ -22,19 +22,18 @@ public class AdvancedThread {
                 }
                 System.out.println("Hello");
             }
-        };
+        }, "Hello Thread");
 
-        Thread t1 = new Thread(r1);
-        Thread t2 = new Thread(r2);
 
         t1.start();
-        try {
-            Thread.sleep(10);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+        System.out.println(t1.isAlive());
+        System.out.println(t1.getName());
+        t1.setPriority(Thread.NORM_PRIORITY);
+        t1.setPriority(Thread.MAX_PRIORITY);
+        System.out.println(t1.getPriority());
         t2.start();
         t1.join();
+        System.out.println(t1.isAlive());
         t2.join();
         System.out.println("Bye");
     }
