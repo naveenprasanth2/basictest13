@@ -70,7 +70,7 @@ class Consumer implements Runnable {
 }
 
 public class InterThread {
-    public static void main(String[] args) {
+    public static void main() {
         Q q = new Q();
         new Producer(q);
         new Consumer(q);
