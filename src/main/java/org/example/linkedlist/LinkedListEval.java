@@ -43,7 +43,7 @@ public class LinkedListEval {
         linkedListEval.addNodeAtEnd(25);
         linkedListEval.addNodeAtEnd(30);
         linkedListEval.addNodeAtEnd(35);
-        linkedListEval.reverseLinkedList();
+//        linkedListEval.reverseLinkedList();
 
         Node node = linkedListEval.head;
 
@@ -51,5 +51,7 @@ public class LinkedListEval {
             System.out.println(node.value);
             node = node.next;
         }
+        Thread thread = new Thread(() -> System.out.println("test"));
+        thread.start();
     }
 }
