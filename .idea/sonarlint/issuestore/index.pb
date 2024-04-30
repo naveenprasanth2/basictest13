@@ -15,3 +15,5 @@ d
 4src/main/java/org/example/practise1/StreamsTest.java,6\d\6d6e179c037332cfa4296c207c054264d259e17e
 d
 4src/main/java/org/example/practise1/StreamsEval.java,5\3\5342e538c8a2bde443635b70c5cb9d73da027d95
+f
+6src/main/java/org/example/practise2/WebDriverEval.java,f\6\f619fb20f1bebc1fe50b5ec086c159f68dcffec5
