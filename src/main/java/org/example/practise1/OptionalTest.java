@@ -31,6 +31,7 @@ public class OptionalTest {
         Supplier<String> supplier = optionalTest::printWithoutArgs;
         log.info(supplier.get());
         log.info(optionalTest.printWithoutArgs());
+        Optional.of("String").orElseThrow(IllegalArgumentException::new);
     }
 
     private <T> void print(T printable) {
