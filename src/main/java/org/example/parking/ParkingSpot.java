@@ -1,4 +1,4 @@
-package parking;
+package org.example.parking;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
