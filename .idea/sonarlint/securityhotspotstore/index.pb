@@ -15,3 +15,15 @@ e
 5src/main/java/org/example/practise2/EmployeeEval.java,f\7\f73b74f8a3095f4e3d9fc48eee16b56a686458e0
 i
 9src/main/java/org/example/multithreading/InterThread.java,9\6\96fa8865a02fb6f2b7335eb222b1116c654c02ac
+l
+<src/main/java/org/example/annotations/CreateAnnotations.java,9\b\9bd8ddb4660a5b6fb0cc41a21afdc060644230c0
+k
+;src/main/java/org/example/annotations/CreateAnnotation.java,5\3\53ce0bf90c7a862d91d35eba20fa67e5f1193f74
+^
+.src/main/java/org/example/annotations/Cat.java,0\b\0b56794018708b91b1ed501f3f8fa6558a3c0af9
+h
+8src/main/java/org/example/annotations/VeryImportant.java,3\c\3c1132290cd41b87cfa05d64697e3a8d128ca456
+i
+9src/main/java/org/example/annotations/RunImmediately.java,5\f\5fa2deae567742625032fc7f9b3fdb6f41152afa
+j
+:src/main/java/org/example/annotations/ImportantString.java,9\b\9b3b8e56f64c7b63a5e9b21a8592d941f25539d2
