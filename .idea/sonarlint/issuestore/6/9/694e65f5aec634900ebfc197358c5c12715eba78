@@ -1,0 +1,8 @@
+
+“
+java:S2095
+"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(Ÿıº¸8ÚÄíšó1J$dac47f5f-156e-464c-b7f2-03ca9041c435
+—
+java:S2095"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(µ—¢ÿÿÿÿÿ8ÚÄíšó1J$8b061720-2c66-4921-ac68-5343503adfb1
+m	java:S106"+Replace this use of System.out by a logger.(ÚÓ›Õ8ªÆäšó1J$a874d7db-507e-41e7-be94-a5d7ca9520d7
+m	java:S106"+Replace this use of System.out by a logger.(±şÈ€8‹°æšó1J$d1caa06e-9de0-4b1e-bef4-25445a524748

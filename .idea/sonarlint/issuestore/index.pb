@@ -41,3 +41,15 @@ j
 :src/main/java/org/example/annotations1/AnnotationEval.java,3\c\3c867102bc7a93ee6634125b2651daf20aeae161
 _
 /src/main/java/org/example/annotations1/Cat.java,7\4\748cef78ac185789076976591fe0c9976e9cc2f3
+c
+3src/main/java/org/example/singleton1/Singleton.java,4\9\499027d9c23861f1e16a4d66017e8926c1b47e6a
+b
+2src/main/java/org/example/singleton/Singleton.java,e\7\e77006f66d6d94f6ecc5c163a2174d608f29292d
+i
+9src/main/java/org/example/singleton1/ReflectionBreak.java,a\c\acc5ee4a9a1509e79698d02ff1fb6147ad688169
+l
+<src/main/java/org/example/singleton1/SeerializableBreak.java,e\2\e29264f885fadd2abf082793189f0265a916985e
+k
+;src/main/java/org/example/singleton1/SerializableBreak.java,6\9\694e65f5aec634900ebfc197358c5c12715eba78
+d
+4src/main/java/org/example/singleton1/CloneBreak.java,8\5\8555db0147953deee9c5d6f21eb13ab0caba8251

@@ -1,0 +1,7 @@
+
+Ü
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(€ª•’8Æ€ñšó1J$d24f3a8a-a861-4d0e-ac04-39a6e1a4b0c4
+•
+java:S2975"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(™”” 8É€ñšó1J$8caf8ed0-07b1-4a3c-b366-48308afaca09
+D
+java:S1185"(Remove this method to simply inherit it.(™”” 8¼¦òšó1

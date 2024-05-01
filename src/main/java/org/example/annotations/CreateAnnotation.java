@@ -31,12 +31,13 @@ public class CreateAnnotation {
             if (field.isAnnotationPresent(ImportantString.class)) {
                 int val = field.getAnnotation(ImportantString.class).times();
                 while (val > 0) {
-                   Object object =  field.get(cat);
-                   if(object instanceof Integer intVal){
-                       System.out.println(intVal);
-                   }
+                    Object object = field.get(cat);
+                    if (object instanceof Integer intVal) {
+                        System.out.println(intVal);
+                    }
                     val--;
                 }
+
             }
         }
     }

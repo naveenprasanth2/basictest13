@@ -1,7 +1,7 @@
 
-š
-java:S3776	"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(…ñáÀÿÿÿÿÿ8ıÎó–ó1J$70d7e5b1-aaca-451d-8c54-1d0bbb123777
-r	java:S106"+Replace this use of System.out by a logger.(®‚§Åşÿÿÿÿ8€Ïó–ó1J$eec85576-6ef2-4a19-ba36-f73f55fc891c
-r	java:S106"+Replace this use of System.out by a logger.(Âê°Šøÿÿÿÿ8Ïó–ó1J$ad4a8101-b2ac-45fd-bd2d-6834d94690c6
-m	java:S106"+Replace this use of System.out by a logger.(ö­ôç8‚Ïó–ó1J$5bb4a4b9-db0d-4e21-9d01-3bab3f337569
-r	java:S106$"+Replace this use of System.out by a logger.(ë…¤¯ûÿÿÿÿ8„Ïó–ó1J$a73312f2-4dd7-4038-bf1e-d4a999d1eb51
+t
+java:S3776	"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(…ñáÀÿÿÿÿÿ8é“šó1
+L	java:S106"+Replace this use of System.out by a logger.(®‚§Åşÿÿÿÿ8‘é“šó1
+L	java:S106"+Replace this use of System.out by a logger.(Âê°Šøÿÿÿÿ8‘é“šó1
+G	java:S106"+Replace this use of System.out by a logger.(ö­ôç8“é“šó1
+L	java:S106$"+Replace this use of System.out by a logger.(ë…¤¯ûÿÿÿÿ8•é“šó1
