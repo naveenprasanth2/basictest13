@@ -15,6 +15,6 @@ public class WebDriverEval {
         FluentWait<WebDriver> fluentWait = new FluentWait<>(webDriver).withTimeout(Duration.ofSeconds(5))
                 .pollingEvery(Duration.ofSeconds(2))
                 .ignoring(NoSuchElementException.class);
-        fluentWait.until((Function<WebDriver, WebElement>) _ -> null);
+        fluentWait.until((Function<WebDriver, WebElement>) ignore -> null);
     }
 }
