@@ -27,3 +27,17 @@ i
 9src/main/java/org/example/annotations/RunImmediately.java,5\f\5fa2deae567742625032fc7f9b3fdb6f41152afa
 j
 :src/main/java/org/example/annotations/ImportantString.java,9\b\9b3b8e56f64c7b63a5e9b21a8592d941f25539d2
+Z
+*src/main/java/org/example/annotatons1.java,9\f\9f7a2cd601a21914f97aa0678652d0489b6fb61e
+R
+"src/main/java/org/example/Cat.java,4\1\41c009feb895d5bcbdf138f06106ea0f9203b6ec
+j
+:src/main/java/org/example/annotations1/RunImmediately.java,c\c\cc180a81ec08b7ad2cca290e87fd66462d29dce2
+k
+;src/main/java/org/example/annotations1/ImportantString.java,4\3\43b12f12bbc45b831bf184ee3bfabea5536c7073
+i
+9src/main/java/org/example/annotations1/VeryImportant.java,0\b\0b6ceece9e71a745a2fc7cf8527d37d27d64a33b
+j
+:src/main/java/org/example/annotations1/AnnotationEval.java,3\c\3c867102bc7a93ee6634125b2651daf20aeae161
+_
+/src/main/java/org/example/annotations1/Cat.java,7\4\748cef78ac185789076976591fe0c9976e9cc2f3
