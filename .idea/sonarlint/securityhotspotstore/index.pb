@@ -49,9 +49,13 @@ d
 4src/main/java/org/example/unit/SimpleCalculator.java,9\f\9f71f34f68eb89619e1e66f67ab7206a405625e2
 h
 8src/test/java/org/example/unit/SimpleCalculatorTest.java,0\3\032bade0b5101494639cbae51db1f721dc1d45a0
-V
-&src/test/java/org/example/AppTest.java,4\3\438c56474209176629917f1aaaac4e1cf31f765e
 Y
 )src/main/java/org/example/unit/Grade.java,0\7\071eafae7a2869872109aca073370ec295dca785
 ]
 -src/test/java/org/example/unit/GradeTest.java,2\9\29af2756aceaf8f3a2fe4718dff41f61acc37a29
+j
+:src/main/java/org/example/stack/FindMinElementInStack.java,8\7\878e41ba4965f90698e8758453f32d8f97f8b3df
+a
+1src/main/java/org/example/stack/SortTheStack.java,d\e\de22ebcbeecef0946cc4496c446f4df1c487dd4f
+\
+,src/main/java/org/example/stack/StackDS.java,5\9\598ac34445e81421825be1f464ecbbf4ae9e5c97
