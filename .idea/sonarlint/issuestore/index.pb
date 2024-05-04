@@ -59,3 +59,7 @@ a
 1src/main/java/org/example/stack/SortTheStack.java,d\e\de22ebcbeecef0946cc4496c446f4df1c487dd4f
 \
 ,src/main/java/org/example/stack/StackDS.java,5\9\598ac34445e81421825be1f464ecbbf4ae9e5c97
+^
+.src/main/java/org/example/stack/SortStack.java,1\a\1a72c24c125de20ca2f2f6af40f40fe4d18f475d
+c
+3src/main/java/org/example/stack/BalancedString.java,3\9\396cf2780d6f7ae710568043d3762744e40cb6b2
