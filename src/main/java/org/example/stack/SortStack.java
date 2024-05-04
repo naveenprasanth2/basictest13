@@ -23,7 +23,7 @@ public class SortStack {
         Stack<Integer> tempStack = new Stack<>();
         while (!stack.isEmpty()) {
             int val = stack.pop();
-            while ((!tempStack.isEmpty()) &&(tempStack.peek() > val)) {
+            while ((!tempStack.isEmpty()) && (tempStack.peek() > val)) {
                 stack.push(tempStack.pop());
             }
             tempStack.push(val);

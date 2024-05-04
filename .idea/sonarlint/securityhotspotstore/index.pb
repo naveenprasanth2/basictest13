@@ -63,3 +63,7 @@ a
 .src/main/java/org/example/stack/SortStack.java,1\a\1a72c24c125de20ca2f2f6af40f40fe4d18f475d
 c
 3src/main/java/org/example/stack/BalancedString.java,3\9\396cf2780d6f7ae710568043d3762744e40cb6b2
+g
+7src/main/java/org/example/stack/InsertAtGivenIndex.java,9\a\9aa25cf07a3ece4781d7f9b0d94beb6b8fabe2c7
+a
+1src/main/java/org/example/stack/ReverseStack.java,8\1\81fc5416baad46c48d1d50ff43a1d89849532e69

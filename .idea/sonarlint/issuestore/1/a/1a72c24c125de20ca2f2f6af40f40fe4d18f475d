@@ -1,8 +1,8 @@
 
-m
-java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ý” ó8œ–¤šô1
-r
-java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(‘œ€–ýÿÿÿÿ8–¤šô1
-m
-java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÜßÏÐ8–¤šô1
-L	java:S106 "+Replace this use of System.out by a logger.(ï®ÏÛýÿÿÿÿ8¢–¤šô1
+“
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ý” ó8œ–¤šô1J$7944e4ca-6791-42c8-a1ea-82418ba83ad0
+˜
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(‘œ€–ýÿÿÿÿ8–¤šô1J$33a2eec4-c5a7-4d39-a853-0465947156d3
+“
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÜßÏÐ8–¤šô1J$3d7dd9ba-7803-4b75-b96e-4f5faf5c7d07
+r	java:S106 "+Replace this use of System.out by a logger.(ï®ÏÛýÿÿÿÿ8¢–¤šô1J$5f4047f5-dec8-4bd8-a861-3f0a707070e0
