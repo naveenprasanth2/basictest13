@@ -67,3 +67,9 @@ g
 7src/main/java/org/example/stack/InsertAtGivenIndex.java,9\a\9aa25cf07a3ece4781d7f9b0d94beb6b8fabe2c7
 a
 1src/main/java/org/example/stack/ReverseStack.java,8\1\81fc5416baad46c48d1d50ff43a1d89849532e69
+a
+1src/main/java/org/example/sorting/BubbleSort.java,9\a\9acd7f7d95520ae34428a6864bdc220b68641c5c
+d
+4src/main/java/org/example/sorting/InsertionSort.java,d\2\d2d2b51bf4a3513bf3e5e26cf74abfb672d72b5a
+d
+4src/main/java/org/example/sorting/BubbleSortNew.java,e\4\e4383af676de3161a4aca3a5374c2fc1e780afa0
