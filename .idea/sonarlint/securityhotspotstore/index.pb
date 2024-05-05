@@ -73,3 +73,9 @@ d
 4src/main/java/org/example/sorting/InsertionSort.java,d\2\d2d2b51bf4a3513bf3e5e26cf74abfb672d72b5a
 d
 4src/main/java/org/example/sorting/BubbleSortNew.java,e\4\e4383af676de3161a4aca3a5374c2fc1e780afa0
+b
+2src/main/java/org/example/search/BinarySearch.java,0\7\079d6e1bcec7a36bc5a5c242aef7344f10ea79a1
+m
+=src/test/java/org/example/unit/MethodOrderedRandomlyTest.java,1\f\1fc0323b319c2c40f721317ea38af34c4c49edb8
+h
+8src/test/java/org/example/unit/MethodsOrderedByName.java,9\f\9f70098e7070b778093cf95e64ff78a14392b94c
