@@ -1,13 +1,20 @@
 package org.example.sorting;
 
 import java.util.Arrays;
+import java.util.Random;
 
 public class MergeSortNew {
     public static void main(String[] args) {
-        int[] a = {55, 1, 2, 3, 2, 4, 5, 3, 4, 7, 8, 6, 7, 3, 2, 1};
-        System.out.println(Arrays.toString(a));
+        int[] a = new int[10000000];
+        Random random = new Random();
+        for (int i = 0; i<a.length; i++){
+            a[i] = random.nextInt(10000000);
+        }
+//        System.out.println(Arrays.toString(a));
+        System.out.println("Before");
         mergeSort(a);
-        System.out.println(Arrays.toString(a));
+//        System.out.println(Arrays.toString(a));
+        System.out.println("After");
     }
 
 
