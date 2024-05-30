@@ -1,6 +1,6 @@
 package org.example.sorting1;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class SelectionSort {
     public static void main(String[] args) {
