@@ -11,8 +11,8 @@ public class HashMapProblems {
         HashMap<String, String> test1 = new HashMap<>();
         test1.put("name", "naveen");
 
-        HashMap<String, String> biggest = test.size() > test1.size() ? test : test1;
-        HashMap<String, String> smallest = test.size() < test1.size() ? test : test1;
-        biggest.entrySet().stream().filter(x -> !smallest.containsKey(x.getKey())).forEach(System.out::println);
+        test.putAll(test1);
+
+        test.entrySet().stream().filter(x -> !test1.containsKey(x.getKey())).forEach(System.out::println);
     }
 }
