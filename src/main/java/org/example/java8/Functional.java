@@ -4,9 +4,9 @@ import java.util.function.BiFunction;
 import java.util.function.ToIntBiFunction;
 
 public class Functional {
-    public static void main(String[] args) {
+    public static void main() {
         BiFunction<String, String, Integer> test = (x, y) -> x.length() + y.length();
-        ToIntBiFunction<String, String> testInt = (x, y) -> x.length()+y.length();
+        ToIntBiFunction<String, String> testInt = (x, y) -> x.length() + y.length();
         printIntMethod(testInt);
         printMethod(test);
     }
