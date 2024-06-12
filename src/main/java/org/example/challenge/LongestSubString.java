@@ -1,7 +1,6 @@
 package org.example.challenge;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class LongestSubString {
     public static void main(String[] args) {
@@ -9,16 +8,19 @@ public class LongestSubString {
         String[] names = name.split("");
         Map<String, Integer> map = new HashMap<>();
         StringBuilder stringBuilder = new StringBuilder();
+        List<String> list = new ArrayList<>();
 
         for (int i = 0; i < names.length; i++) {
             if (map.containsKey(names[i])) {
-                break;
+                list.add(stringBuilder.toString());
+                map.clear();
+                stringBuilder.delete(0, stringBuilder.length());
             } else {
                 stringBuilder.append(names[i]);
                 map.put(names[i], 1);
             }
         }
-
-        System.out.println(stringBuilder);
+        list.sort(Comparator.naturalOrder());
+        System.out.println(list.getFirst());
     }
 }
