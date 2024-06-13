@@ -1,7 +1,5 @@
 package org.example.linkedlist;
 
-import java.util.Objects;
-
 public class LinkedList {
 
     Node head;
@@ -71,15 +69,76 @@ public class LinkedList {
         return temp;
     }
 
+    private Node get(int index) {
+        int count = 0;
+        if (index == 0) return head;
+        Node current = head;
+
+        while (count != index) {
+            current = current.next;
+            if (current == null) {
+                throw new IndexOutOfBoundsException(STR."Please enter a  value between 0 and \{count}");
+            }
+            count++;
+        }
+
+        return current;
+    }
+
+    public boolean insert(int index, int value) {
+        Node newNode = new Node(value);
+        if (index == 0) {
+            newNode.next = head;
+            head = newNode;
+            length++;
+            return true;
+        }
+
+        Node current = head;
+        int count = 0;
+
+        while (count < index - 1) {
+            current = current.next;
+            if (current == null) {
+                throw new IndexOutOfBoundsException(STR."Please enter a  value between 0 and \{count}");
+            }
+            count++;
+        }
+        Node temp = current.next;
+        current.next = newNode;
+        newNode.next = temp;
+        length++;
+        return true;
+    }
+
+    private boolean set(int index, int value) {
+        int count = 0;
+        if (index == 0) {
+            head.value = tail.value = value;
+            return true;
+        }
+        Node current = head;
+        while (count < index ) {
+            current = current.next;
+            count++;
+            if(current == null){
+                throw new IndexOutOfBoundsException(STR."Please enter a  value between 0 and \{count}");
+            }
+        }
+        current.value = value;
+        return true;
+    }
 
     public static void main(String[] args) {
         LinkedList list = new LinkedList(5);
         list.append(10);
         list.append(15);
         list.append(25);
-        System.out.println(list.removeLast().value);
-        System.out.println(STR."The removed value is \{list.removeFirst().value}");
         list.prepend(99);
+        System.out.println(list.insert(1, 100));
+        list.set(0, 66);
+        list.set(2, 55);
+//        list.set(10, 6);
         list.printList();
     }
 
