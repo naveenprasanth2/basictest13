@@ -1,5 +1,7 @@
 package org.example.linkedlist;
 
+import static java.lang.StringTemplate.STR;
+
 public class LinkedList {
 
     Node head;
